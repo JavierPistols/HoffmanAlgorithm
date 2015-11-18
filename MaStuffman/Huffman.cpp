@@ -34,7 +34,7 @@ void fillList()
 	}
 
 	//printing the list
-	i_vFreqList = v_FreqList.begin();
+	i_mmRealList = mm_mmRealList.begin();
 	while (i_mmRealList != mm_mmRealList.end())
 	{
 		cout << endl <<i_mmRealList->second.character << "," << i_mmRealList->first<<endl;
@@ -46,6 +46,6 @@ void fillList()
 int main()
 {
 	fillList();
-
+	system("pause");
 	return 0;
 }
