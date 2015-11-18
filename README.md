@@ -1,2 +1,0 @@
-# HoffmanAlgorithm
-Colonel Hoffman Implementation
